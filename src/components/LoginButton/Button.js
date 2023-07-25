@@ -3,9 +3,8 @@
 import React from 'react';
 import'./Button.css';
 
-
 const Button = ({ label }) => {
-  return <button className="custom-button">{label}</button>;
+  return <button className="Login-Button">{label}</button>;
 };
 
 export default Button;
