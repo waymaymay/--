@@ -1,0 +1,15 @@
+.leave-Button{
+    width: 20vmin;
+    height: 5vmin;
+    background-color: #b00000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 0 10px;
+}
+
+.leave-Button:hover {
+    background-color: #ff9999;
+  }
