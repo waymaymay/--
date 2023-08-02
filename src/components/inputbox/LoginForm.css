@@ -14,9 +14,6 @@
     justify-content: center;
 }
 
-.passwordgroup::-moz-focus-inner{
-    color: blueviolet;
-}
 
 input{
     width: 36vmin;
