@@ -4,7 +4,7 @@ import React from 'react';
 import'./Button.css';
 
 const Button = ({ label }) => {
-  return <button className="Login-Button">{label}</button>;
+  return <button className="Login-Button" type="sumit">{label}</button>;
 };
 
 export default Button;

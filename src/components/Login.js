@@ -4,7 +4,7 @@
 import React from 'react';
 import Button from './LoginButton/Button';
 import Leave from './leaveButton/leave';
-// import imgs from './imgs/login-image.png';
+import LoginForm from './inputbox/LoginForm';
 
 const Login = () => {
   const handleLogin = () => {
@@ -18,6 +18,7 @@ const Login = () => {
             <div className='logintop'>請假登入</div>
             {/* Add login form here */}
             <div className='login-group'>
+                <LoginForm/>
                 <Button label="登入" onClick={handleLogin} />
                 <Leave label="離開" onClick={handleLogin} />
             </div>

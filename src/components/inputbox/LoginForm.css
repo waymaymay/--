@@ -1,0 +1,26 @@
+.textgroup{
+    padding-bottom: 20px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordgroup{
+    padding-bottom: 30px;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.passwordgroup::-moz-focus-inner{
+    color: blueviolet;
+}
+
+input{
+    width: 36vmin;
+    height: 3.6vmin;
+    font-size: 2.2vmin;
+    padding: 4px 6px;
+}
