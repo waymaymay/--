@@ -1,7 +1,5 @@
 import React from 'react';
-import Button from './LoginButton/Button';
-import Leave from './leaveButton/leave';
-import LoginForm from './inputbox/LoginForm';
+import LoginForm from './LoginForm/LoginForm';
 import { increment,decrement } from '../actions/counter';
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
@@ -10,11 +8,6 @@ function Login() {
   const counter = useSelector(state=>state.counter);
   const dispatch = useDispatch();
 
-  const handleLogin = () => {
-    // Add login logic here
-    console.log('Login clicked!');
-  };
-
   return (
     <div className="login-container">
       <div className="left-section">
@@ -22,8 +15,6 @@ function Login() {
         {/* Add login form here */}
         <div className='login-group'>
           <LoginForm />
-          <Button label="登入" onClick={handleLogin} />
-          <Leave label="離開" onClick={handleLogin} />
           <div>Counter from Store is :{counter}</div>
           <button onClick={() => dispatch(increment())}>增加</button>
           <button onClick={() => dispatch(decrement())}>減少</button>
