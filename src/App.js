@@ -1,11 +1,10 @@
 // App.js
 
 import React from 'react';
-import {BrowserRouter as Router, Route, Link, Routes, Navigate} from 'react-router-dom';
+import {BrowserRouter as Router, Route, Routes, Navigate} from 'react-router-dom';
 import './App.css';
 import Login from './components/Login';
 import FormPage from './components/InnerPage/FormPage';
-import { useSelector } from "react-redux";
 
 function App() {
   return (
