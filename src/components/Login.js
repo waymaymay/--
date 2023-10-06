@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginForm from './LoginForm/LoginForm';
+import LoginForm from './LoginForm/LoginForm.js';
 import { increment,decrement } from '../actions/counter';
 import { useSelector } from "react-redux";
 import { useDispatch } from "react-redux";
