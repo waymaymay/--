@@ -23,7 +23,7 @@ function Login() {
 
       <div className="right-section">
         {/* Content for the right section */}
-        <img src='./images/login-image.png' width="700vmin" height="700vmin" alt='login' />
+        <img src='./images/login-image.png' width="700vmin" height="720vmin" alt='login' />
       </div>
     </div>
   );

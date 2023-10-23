@@ -6,7 +6,7 @@
   height: 100%;
   width: 100%;
   flex: 2;
-  background-color: rgb(236, 228, 223);
+  background-color: #ECFDFF;
 }
 
 .left-section{
@@ -28,6 +28,7 @@
   align-items: center;
   justify-content: center;
   flex: 1;
+  background-color:rgb(113, 196, 205);
 }
 
 .logintop{
