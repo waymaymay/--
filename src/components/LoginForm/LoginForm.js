@@ -53,7 +53,7 @@ const LoginForm = () => {
       </div>
  
   < CustButton label='登入' click={handleLogin}/>
-  < Leave label='離開' />
+  < Leave label='離開'/>
 
 {showAlert && (
   <Alert
